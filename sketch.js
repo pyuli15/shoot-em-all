@@ -70,7 +70,7 @@ function preload()
 	reloadingGun = loadSound("sounds/reloaded.mp3");
 	
 	//Here I am putting my canvas inside of a container so that I can determine where I want it on my page
-	theCanvas.parent("#gameContainer");
+	
 }
 
 function setup()
@@ -79,7 +79,7 @@ function setup()
 	theCanvas = createCanvas(600,600);
 	
   	imageMode(CENTER);
-  	theCanvas.parent("#gameContainer");
+  	
 }
 
 function draw() 
